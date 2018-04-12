@@ -1,0 +1,184 @@
+tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0;}
+
+#entrevistas_cuerpo { padding-left: 250px; }
+
+#entrevistas_cuerpo [type="file"] { border-style: none;  }
+
+#entrevistas_cuerpo_formularioEntrevistas{ font-family: HelveticaNeueLTStd-Lt; font-size: 17px;}
+
+#entrevistas_cuerpo_formularioEntrevistas fieldset { margin-bottom: 25px ; margin-top: 25px  }
+
+#entrevistas_cuerpo_formularioEntrevistas legend {color:#700013; font-weight: bolder;}
+
+#entrevistas_cuerpo_formularioEntrevistas span {font-weight: bolder; }
+
+#entrevistas_cuerpo_formularioEntrevistas_paginas_tabla{padding-top: 15px;}
+
+#entrevistas_cuerpo_formularioEntrevistas label{
+
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+#entrevistas_cuerpo_formularioEntrevistas select {
+
+	height: 30px;
+	margin-top: 9px;
+	padding-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	color: #515151;
+	font-size: 17px;
+
+}
+
+.allinputs {
+
+	height: 30px;
+	margin-top: 9px;
+	padding-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	color: #515151;
+	font-size: 17px;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_informacionPersonal{
+
+	width: 880px;
+	margin: 0px;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_referenciasPersonales fieldset {
+
+	width: 820px;
+	background-color: #E6E7E8;
+	padding-left: 77px;
+	padding-bottom: 10px; 
+	padding-top:10px;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_referenciasPersonales_1 { background-image: url("../images/referenciaspersonales1.jpg"); background-repeat: no-repeat; }
+#entrevistas_cuerpo_formularioEntrevistas_referenciasPersonales_2 { background-image: url("../images/referenciaspersonales2.jpg"); background-repeat: no-repeat;  }
+#entrevistas_cuerpo_formularioEntrevistas_referenciasPersonales_3 { background-image: url("../images/referenciaspersonales3.jpg"); background-repeat: no-repeat;  }
+
+#entrevistas_cuerpo_formularioEntrevistas_paginas{
+
+
+background-color: grey;
+width: 880px;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_paginas{
+
+
+width: 800px;
+padding-top: 15px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+0,000000+100&0.65+0,0+100 */
+background: -moz-linear-gradient(top, rgba(237,237,237,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(237,237,237,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(237,237,237,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ededed', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#entrevistas_cuerpo_formularioEntrevistas_paginas [type="checkbox"]{
+ 
+  position: relative;
+  /*top: 9px;*/
+  
+}
+
+
+#entrevistas_cuerpo_formularioEntrevistas_paginas [type="text"] {
+  
+  width: 310px;
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_copiaCedula_inputCedula1{
+
+	margin-top: 15px;
+	width: 420px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 0px;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_copiaCedula_inputCedula2{
+
+	margin-top: 15px;
+	width: 420px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 0px;
+
+}
+
+input [type="file"]{
+
+	border-style: none;
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_ingresarDatosEntrevista {
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width:400px;
+  height: 53px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_ingresarDatosEntrevista:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#entrevistas_cuerpo_formularioEntrevistas_referido_1{ width: 912px; height: 97px; background-color: #E6E7E8; }
+
+#entrevistas_cuerpo_formularioEntrevistas_referido_1 font { font-size: 30px; font-family: HelveticaNeueLTStd-Th; color:#700013; }
+
+#ui-id-1 {
+
+position: relative;
+    top: -325px;
+    left: 500px;
+    border: thin solid grey;
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    display: none;
+    width: 1338px;
+    background-color: rgb(243, 243, 243);
+    width: 600px;
+    cursor: pointer;
+
+}

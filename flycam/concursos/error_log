@@ -1,0 +1,4 @@
+[04-Oct-2016 16:12:19 America/Bogota] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 50
+[04-Oct-2016 16:14:08 America/Bogota] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 50
+[04-Oct-2016 16:14:13 America/Bogota] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 50
+[10-Feb-2017 08:44:58 America/Bogota] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/funciones.php on line 348

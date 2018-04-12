@@ -1,0 +1,35 @@
+[31-Aug-2017 15:33:06 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 50
+[14-Sep-2017 14:44:30 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 50
+[25-Jan-2018 18:43:10 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[25-Jan-2018 18:43:10 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[25-Jan-2018 18:43:10 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[13-Feb-2018 13:07:31 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[13-Feb-2018 13:07:31 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[13-Feb-2018 13:07:31 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[13-Feb-2018 18:56:06 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[13-Feb-2018 18:56:06 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[13-Feb-2018 18:56:06 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[19-Feb-2018 08:20:28 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[19-Feb-2018 08:20:28 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[19-Feb-2018 08:20:28 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[19-Feb-2018 08:20:47 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[19-Feb-2018 08:20:47 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[19-Feb-2018 08:20:47 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[27-Feb-2018 15:59:35 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[27-Feb-2018 15:59:35 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[27-Feb-2018 15:59:35 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[05-Mar-2018 21:41:21 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[05-Mar-2018 21:41:22 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[05-Mar-2018 21:41:22 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[05-Mar-2018 21:41:23 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[05-Mar-2018 21:41:24 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[05-Mar-2018 21:41:24 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[21-Mar-2018 17:51:04 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[21-Mar-2018 17:51:04 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[21-Mar-2018 17:51:04 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[21-Mar-2018 17:51:05 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[21-Mar-2018 17:51:05 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[21-Mar-2018 17:51:05 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[28-Mar-2018 01:28:00 America/Bogota] PHP Notice:  Undefined index: logueado in /home/modeloswebcam/public_html/marilyn/_includes-functions/seguridad.php on line 86
+[28-Mar-2018 01:28:00 America/Bogota] PHP Notice:  Undefined variable: con in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51
+[28-Mar-2018 01:28:00 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/modeloswebcam/public_html/marilyn/_includes-functions/barraNavegacion.php on line 51

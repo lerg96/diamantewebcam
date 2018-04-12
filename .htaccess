@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#All request to https://www.
+#RewriteCond %{HTTPS} off
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|html|htm|xml|txt|xsl|ttf)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+
+#Redireccion en caso de error 404
+ErrorDocument 404 /404.html
+
+#evita caracteres raros en las lestras que tienen tilde
+AddDefaultCharset utf-8
+
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 1 month"
+</IfModule>

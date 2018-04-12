@@ -1,0 +1,118 @@
+#permisos_cuerpo { padding-left: 250px; }
+
+#permisos_cuerpo_permisosIcono { margin-right: 15px; }
+
+#permisos_cuerpo_formulario1 {margin-top: 20px; }
+
+#permisos_cuerpo_formulario1 label{font-family: HelveticaNeueLTStd-Lt; }
+
+#permisos_cuerpo_formulario1 select {width: 160px; height: 30px; border-radius: 5px; margin-bottom: 5px;}
+
+#permisos_cuerpo_formulario1 input[type="text"] { margin-bottom: 5px; width: 370px; height: 30px; padding-left: 10px; }
+
+#permisos_cuerpo_formulario1_boton  {
+
+  width:220px;
+  height: 53px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#permisos_cuerpo_formulario1_verDatos:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#permisos_cuerpo_totalVentas{ display: inline; }
+
+#permisos_cuerpo_deducciones{ margin-top: 20px;  }
+
+#permisos_cuerpo h3 { font-size: 17px; display: inline; color: #700013, margin:40px; }
+
+#permisos_cuerpo h3 b {color:#404041; }
+
+#permisos_cuerpo_contenedorTabla {
+
+
+  font-family: HelveticaNeueLTStd-Lt;
+  width: 100%; 
+  overflow:auto; 
+  margin-right: 50px; 
+
+  background: -moz-linear-gradient(top,  rgba(237,237,237,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(237,237,237,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(237,237,237,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ededed', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+thead tr {color: white; height: 40px; background-color:#810B45}
+
+#permisos_cuerpo_contenedorTabla_tablapermisos {text-align: left; width: 100%;   }
+
+#permisos_cuerpo_contenedorTabla_tablapermisos td {color: #7B0F43;}
+
+.botonBorrar { width: 9px; height: 9px; cursor: pointer;  }
+
+.botonBorrar:hover { opacity: 0.5; } 
+
+#permisos_cuerpo_contenedorTabla_tablapermisos_formularioAñadirUsuario {margin-bottom: 10px;}
+
+#permisos_cuerpo_contenedorTabla_tablapermisos_formularioAñadirUsuario input[type="text"] {margin-left: 7px; margin-right: 7px; padding-left: 7px; }
+
+#botonAñadirUsuarios{ 
+
+  height: 29px; 
+  width: 37px;
+  text-align: center;
+  font-size: 17px;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#botonAñadirUsuarios:hover { 
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#permisos_cuerpo_contenedorTabla_tablaPrincipal {  font-family: HelveticaNeueLTStd-Lt; width: 99%; border-width: thin; border-color: white; margin-top: 15px; }
+
+#permisos_cuerpo_contenedorTabla_tablaPrincipal td { padding-left: 10px; }
+
+.editIcon { cursor: pointer;}
+
+.editIcon:hover { opacity: 0.5; }

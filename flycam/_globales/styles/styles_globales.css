@@ -1,0 +1,303 @@
+/*////////////////////////////////////////
+///////////////HTML//////////////////////
+//////////////////////////////////////*/
+/*PARA SOLUCIONAR EL PROBLEMA DE FONT-BOOSTING*/
+html * {max-height:1000000px;}
+
+/*////////////////////////////////////////
+///////////////BODY//////////////////////
+//////////////////////////////////////*/
+body {
+   margin: 0px;
+  }
+form{
+	margin:0px;
+}
+
+/*////////////////////////////////////////
+//////////BOTONES -VER MANUALES-/////////
+//////////////////////////////////////*/
+/*boton_decorado_general -VER MANUALES-*/
+.boton_decorado_general{
+	background-color: #4A4A4A;
+	border-style: none;
+	font-family:Conv_HelveticaNeueThn;
+	font-size: 18px;
+	margin: 5px;
+	padding-right: 35px;
+	padding-left: 35px;
+    color:white;
+	cursor:pointer;
+}
+.boton_decorado_general:hover {
+	background-color: #666667;
+}
+/*//////////////////////////////*/
+/*Boton_navegador*/ 
+.boton_mini_navegador{
+background-color: #4A4A4A;
+height: 22px;
+border-radius: 5px 5px 5px 5px;
+margin: 5px;
+border-style: none;
+cursor: pointer;
+color: white;
+float:left;
+}
+.boton_mini_navegador:hover {
+background-color: #828285;
+border-style:solid;
+border-width:1px;
+-moz-transition: all 0.2s;
+-webkit-transition: all 0.2s;
+-o-transition: all 0.2s;
+}
+/*//////////////////////////////*/
+/*Boton_navegador  --ACTUAL--*/ 
+.boton_mini_navegador_actual{
+background-color: #828285;
+border-style:solid;
+border-width:1px;
+height: 22px;
+border-radius: 5px 5px 5px 5px;
+margin: 5px;
+cursor: pointer;
+color: white;
+float:left;
+}
+.boton_mini_navegador_actual:hover {
+background-color: #4A4A4A;
+
+border-style: none;
+
+-moz-transition: all 0.2s;
+-webkit-transition: all 0.2s;
+-o-transition: all 0.2s;
+}
+/*//////////////////////////////*/
+/*boton_sostenido -VER MANUALES-*/
+.boton_sostenido{
+    background-color:#4A4A4A;
+    border: thin solid #898989;
+    border-radius: 0 0 5px 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+	margin-left: 20px;
+	float: left;
+}
+.boton_sostenido:hover {
+	background-color: #666667;
+}
+/*//////////////////////////////*/
+/*boton_textarea*/
+.boton_textarea{
+	background-color:#5E5E5E;
+	height: 70px;
+	width: 93px;
+	font-family: Conv_HelveticaNeueThn;
+	font-size: 20px;
+	color: #FFF;
+	cursor: pointer;
+	border-style: none;
+    float:right;
+}
+.boton_textarea:hover {
+	background-color: #666667;
+}
+.boton_textarea:focus {
+	border: 1px solid #036;
+	box-shadow: 1px 1px 5px #822C35;
+}
+/*//////////////////////////////*/
+/*boton_imagen_fondo*/
+.boton_imagen_fondo{
+border-style: none;
+background: none;
+color: #FFF;
+cursor: pointer;
+padding: 0px 1px 0px 1px;
+vertical-align: middle;
+}
+/*//////////////////////////////*/
+/*boton_movedizo*/
+.boton_movedizo{
+	/*background-color: #E0040B; --Debe estar Inline--*/
+	/*background-image: url(../../_globales/imagenes/estadistica.png);  --Debe estar Inline--*/ 
+	height: 35px;
+	width: 75px;
+	border-radius: 10px 0px 0px 10px;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	right:0px;
+	position: absolute;
+	cursor: pointer;
+}
+.boton_movedizo:hover {
+	transition:all 0.2s;
+	width: 100px;
+}
+/*////////////////////////////////////////
+///////////////-SELECTS-/////////////////
+//////////////////////////////////////*/
+.seleccionador{
+	font-family: Conv_HelveticaNeueThn;
+	color: #FFF;
+	background-color: #5E5E5E;
+	height: 25px;
+	width: 170px;
+	border-radius:5px 5px 5px;
+	padding: 4px;
+	border-style: none;
+
+}
+
+/*////////////////////////////////////////
+/////////INPUT TYPE='TEXT'///////////////
+//////////////////////////////////////*/
+
+.input_tipo_texto{
+	background-color:#5E5E5E;
+	cursor:text;
+	border-style:none;
+	font-size:16px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	padding:2px;
+	margin-top:2px;
+	text-align: center;
+}
+/*////////////////////////////////////////
+/////////TEXTAREA////////////////////////
+//////////////////////////////////////*/
+.textarea_1{
+    background-color: #5E5E5E;
+    /*height: 100px; SE DEBE ESTABLECER EN EL ELEMENTO*/
+    /*width: 790px; SE DEBE ESTABLECER EN EL ELEMENTO*/
+
+    font-family: Conv_HelveticaNeueThn;
+    font-size: 16px;
+    color: #FFF;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #C1C0BE;
+	resize: none;
+
+}
+
+.textarea_1:focus {
+	border: thin solid #09F;
+	outline-color:#0CC;
+}
+
+.textarea_1::-webkit-input-placeholder {
+ color:#999;
+ font-size:50px;
+}
+.textarea_1::-moz-placeholder {
+ color:#999;
+ font-size:50px;
+}
+/*////////////////////////////////////////
+/////////INPUT TYPE='FILE'///////////////
+//////////////////////////////////////*/
+.input_tipo_archivo {
+	background-color: #7d7d7d;
+	border: 1px solid black;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #fff;
+	padding: 0px 10px;
+}
+
+/*////////////////////////////////////////
+/////////TOOLTIP - INFOALERTA////////////
+//////////////////////////////////////*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*////////////////////////////////////////
+///////////////FUENTES///////////////////
+//////////////////////////////////////*/
+	
+
+ @font-face {
+ font-family: 'Conv_HelveticaNeueThn';
+ src: url('../../_globales/fuentes/HelveticaNeueThn.eot');
+ src: local('☺'), url('../../_globales/fuentes/HelveticaNeueThn.woff') format('woff'), url('../../_globales/fuentes/HelveticaNeueThn.ttf') format('truetype'), url('../../_globales/fuentes/HelveticaNeueThn.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'HelveticaNeueLTStd-UltLtEx';
+ src: url('../../_globales/fuentes/HelveticaNeueLTStd-UltLtEx/HelveticaNeueLTStd-UltLtEx.eot');
+ src: local('☺'), url('../../_globales/fuentes/HelveticaNeueLTStd-UltLtEx/HelveticaNeueLTStd-UltLtEx.woff') format('woff'), url('../../_globales/fuentes/HelveticaNeueLTStd-UltLtEx/HelveticaNeueLTStd-UltLtEx.ttf') format('truetype'), url('../../_globales/fuentes/HelveticaNeueLTStd-UltLtEx/HelveticaNeueLTStd-UltLtEx.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-weight:100;
+}
+ @font-face {
+ font-family: 'HelveticaNeueBd';
+ src: url('../_includes-funciones/_globales/fuentes/HelveticaNeueBd/HelveticaNeueBd.eot');
+ src: local('☺'), url('../../_globales/fuentes/HelveticaNeueBd/HelveticaNeueBd.woff') format('woff'), url('../../_globales/fuentes/HelveticaNeueBd/HelveticaNeueBd.ttf') format('truetype'), url('../../_globales/fuentes/HelveticaNeueBd/HelveticaNeueBd.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-weight:100;
+}
+ @font-face {
+ font-family: 'DS-DIGIT';
+ src: url('../_globales/fuentes/DS-DIGIT.TTF');
+ src: local('☺'), url('../../_globales/fuentes/DS-DIGIT.TTF') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ font-weight:100;
+}
+
+ @font-face {
+ font-family: 'myriad_pro';
+ src: url('../../_globales/fuentes/myriad_pro/myriad_pro.OTF');
+ src: local('â˜º'), url('../../_globales/fuentes/myriad_pro/myriad_pro.OTF') format('OpenType');
+ font-weight: normal;
+ font-style: normal;
+ font-weight:100;
+ }
+/*:::::: ESTILOS HEADER:::::*/	
+

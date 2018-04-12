@@ -1,0 +1,39 @@
+/* helevetiva medium */
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Medium/HelveticaNeueLTStd-Md';
+  src: url('HelveticaNeueLTStd-Medium/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),  url('HelveticaNeueLTStd-Medium/HelveticaNeueLTStd-Md.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Md.woff') format('woff'), url('HelveticaNeueLTStd-Medium/HelveticaNeueLTStd-Md.ttf')  format('truetype'), url('HelveticaNeueLTStd-Medium/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* helevetiva light */
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  src: url('HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.eot') format('embedded-opentype'),  url('fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+       url('HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.ttf')  format('truetype'), url('HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* helevetiva Thin */
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Th';
+  src: url('HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.eot') format('embedded-opentype'),  url('HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.woff') format('woff'), url('HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.ttf')  format('truetype'), url('HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* helevetiva Bold */
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Bd';
+  src: url('HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),  url('HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.woff') format('woff'), url('HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.ttf')  format('truetype'), url('HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,85 @@
+#estadisticasLider_cuerpo { padding-left: 250px; }
+
+#estadisticasLider_cuerpo_estadisticasIcono { margin-right: 15px; }
+
+#estadisticasLider_cuerpo_primerParrafo { width: 800px; margin-top: 20px; margin-bottom: 20px; }
+
+#estadisticasLider_cuerpo_formulario1 label{font-family: HelveticaNeueLTStd-Lt; }
+
+#estadisticasLider_cuerpo_formulario1 input[type="date"]{margin-bottom: 5px; }
+
+#estadisticasLider_cuerpo_formulario1 select {width: 160px; height: 35px; border-radius: 5px; margin-bottom: 5px;}
+
+#estadisticasLider_cuerpo_formulario1 input[type="date"] { width: 155px; height: 35px;  }
+
+input[type="radio"] { margin-bottom: 15px;  } 
+
+
+#estadisticasLider_cuerpo_formulario1_verDatos  {
+
+  width:220px;
+  height: 53px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#estadisticasLider_cuerpo_formulario1_verDatos:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#estadisticasLider_cuerpo_totalVentas{ display: inline; }
+
+#estadisticasLider_cuerpo_deducciones{ margin-top: 20px;  }
+
+#estadisticasLider_cuerpo h3 { font-size: 17px; display: inline; color: #700013, margin:40px; }
+
+#estadisticasLider_cuerpo h3 b {color:#404041; }
+
+#estadisticasLider_cuerpo_contenedorTabla {margin-top: 10px; font-family: HelveticaNeueLTStd-Lt; width: 99%; overflow:auto; }
+
+thead tr {color: white; height: 40px; background-color:#810B45}
+
+#estadisticasLider_cuerpo_contenedorTabla .typeNumber{width: 50px;}
+
+#estadisticasLider_cuerpo_contenedorTabla .editicon { margin-left: 5px;  }
+
+#estadisticasLider_cuerpo_contenedorTabla .editicon:hover { opacity: 0.5; cursor: pointer;  }
+
+#estadisticasLider_cuerpo_contenedorTabla_tablaEstadisticas {text-align: center; border-color: white; border-width:thin; background-color: #F2F2F2; width: 150%; }
+
+#estadisticasLider_cuerpo_contenedorTabla_tablaEstadisticas td {min-width: 100px;}
+
+#estadisticasLider_cuerpo_tablaGananciasDeTodaLaVida {text-align: center; border-color: white; border-width:thin; background-color: #F2F2F2; margin-top: 20px; font-family: HelveticaNeueLTStd-Lt; width: 700px; overflow:auto; }
+
+#estadisticasLider_cuerpo_tablaGananciasDeTodaLaVida td { padding-left: 15px; }
+
+#estadisticasLider_cuerpo_tablaGananciasDeTodaLaVida tr { height: 30px; }
+
+#estadisticasLider_cuerpo_contenedorTabla .editnumber { cursor: pointer; width: 20px; }
+
+ #estadisticasLider_cuerpo_contenedorTabla .editnumber:hover { opacity: 0.7; }
+
+
+
+
+
+

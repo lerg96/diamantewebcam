@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Lt';
+	src: url('../fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.eot') format('embedded-opentype'),  url('../fonts/fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+	url('../fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.woff') format('woff'), url('../fonts/fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.ttf')  format('truetype'), url('../fonts/HelveticaNeueLTStd-Light/HelveticaNeueLTStd-Lt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* helevetiva Thin */
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Th';
+	src: url('../fonts/HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.eot') format('embedded-opentype'),  url('../fonts/HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.otf')  format('opentype'),
+	url('../fonts/HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.woff') format('woff'), url('../fonts/HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.ttf')  format('truetype'), url('../fonts/HelveticaNeueLTStd-Thin/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* helevetiva Bold */
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Bd';
+	src: url('../fonts/HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.otf')  format('opentype'),
+	url('../fonts/HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.woff') format('woff'), url('../fonts/HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.ttf')  format('truetype'), url('../fonts/HelveticaNeueLTStd-Bold/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+	font-family: HelveticaNeueLTStd-Th; 
+	color: #700013;
+	font-size:40px;
+	font-weight:lighter;
+}
+
+
+p, a, li, ul, span {
+	font-family: HelveticaNeueLTStd-Lt;
+	font-size: 15px;
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+<em>/* No olvides definir estilos para focus */</em>
+:focus {
+	outline: 0;
+}
+<em>/* No olvides resaltar de alguna manera el texto insertado/borrado */</em>
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+<em>/* En el código HTML es necesario añadir cellspacing="0" */</em>
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bigcta {
+
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  height: 53px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+.bigcta:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+ cursor: pointer;
+
+}
+
+.bigcta_trasparent {
+
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  border-style: solid;
+  border-radius: 5px;
+  height: 53px;
+  border-width: 1px;
+  border-color: white;
+  background-color: transparent;
+
+}
+
+.bigcta_trasparent_yellow {
+
+  text-align: center;
+  font-size: 17px;
+  color: #FDB721;
+  border-style: solid;
+  border-radius: 5px;
+  height: 53px;
+  border-width: 1px;
+  border-color: #FDB721;
+  background-color: transparent;
+
+}
+
+.bigcta_trasparent_yellow:hover {
+
+opacity: 0.6;
+cursor: pointer;
+
+}
+
+.bigcta_trasparent:hover {
+
+opacity: 0.6;
+cursor: pointer;
+
+}
+
+.bigcta_semi_trasparent {
+
+  text-align: center;
+  font-size: 17px;
+  color: #636363;
+  border-style: solid;
+  border-radius: 5px;
+  height: 53px;
+  border-width: 1px;
+  border-color: #636363;
+  background-color: transparent;
+
+}
+
+
+.bigcta_semi_trasparent:hover {
+
+opacity: 0.6;
+cursor: pointer;
+
+}
+
+.input {
+    height: 30px;
+    margin-top: 9px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: #828282;
+    font-size: 17px; 
+    font-family: 'HelveticaNeueLTStd-Lt'; }
+
+
+p { line-height: 1.2;text-align: justify; }
+

@@ -1,0 +1,46 @@
+#formularioPlantilla{ font-family:HelveticaNeueLTStd-Lt;  }
+
+input[type="radio"]{ display: none; }
+ 
+input[type="radio"] + label{
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background: url(../../_globales/images/radiobuttom.png) left top no-repeat;
+    margin: -1px 4px 0 0;
+    cursor:pointer;
+}
+ 
+input[type="radio"]:checked + label{
+    background: url(../../_globales/images/radiobuttom.png) -19px top no-repeat;
+}
+
+#formularioPlantilla { padding-left: 250px  }
+
+#formularioPlantilla fieldset { margin-top:30px; }
+
+#formularioPlantilla_formulario1_estilos table {  height: 70px  }
+
+#formularioPlantilla_formulario1_estilos table td { min-width: 170px; }
+
+legend { font-weight: bolder; color:#700013 }
+
+#formularioPlantilla_formulario1_sobreMi textarea { padding-left:10px; font-size:17px; font-family:HelveticaNeueLTStd-Lt; margin-top: 9px;  }
+
+#formularioPlantilla_formulario1_fotos legend { margin-bottom:10px; }
+
+.allinputs {
+
+	height: 30px;
+	margin-top: 9px;
+	padding-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	color: #515151;
+	font-size: 17px;
+
+}
+
+#formularioPlantilla_formulario1_fotos  label { margin-right: 10px;  }
+
+.biginput { height: 45px; width: 650px; font-size: 25px; padding-left: 15px; }

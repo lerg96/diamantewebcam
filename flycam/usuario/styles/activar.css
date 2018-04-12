@@ -1,0 +1,176 @@
+
+body{
+  background: url(../../_globales/images/fondoactivar.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#usuario_barraNavegacion{
+
+  width: 100%;
+  height: 125px;
+
+
+}
+
+#usuario_barraNavegacion_logomodelos img{
+margin-top: 10px;
+  margin-left: 50px;
+
+}
+
+#usuario_barraNavegacion_whatsapp{
+
+  margin-top: 50px;
+  margin-right: 20px;
+  float: right;
+  
+  /*position: absolute;*/
+
+}
+
+#usuario_barraNavegacion_botonRegistro{
+
+  margin-top: 45px;
+  margin-right: 30px;
+  float:right;
+  /*position: absolute;*/
+
+}
+
+#usuario_barraNavegacion_botonRegistro:hover {
+
+  opacity: 0.9;
+
+}
+
+
+
+#usuario_formularioInicioSesion {
+
+  width: 445px;
+  height: 470px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  margin-top: -75px;
+  margin-left: -75px;
+
+  text-align: center;
+
+}
+
+#usuario_formularioInicioSesion_titulo {
+
+  margin: auto;
+  font-weight: lighter;
+  color: white;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+
+}
+
+#usuario_formularioInicioSesion_usuario {
+
+  width:300px;
+  height: 56px;
+  text-align: center;
+  font-size: 27px;
+  font-family: HelveticaNeueLTStd-Th;
+}
+
+#usuario_formularioInicioSesion_password {
+
+  width:300px;
+  height: 56px;
+  text-align: center;
+  font-size: 27px;
+  margin-top: 7px;
+  font-family: HelveticaNeueLTStd-Th;
+
+}
+
+#usuario_formularioInicioSesion_reestablecercontraseña{
+
+
+  font-size: 17px;
+  font-family: HelveticaNeueLTStd-Lt;
+  color: white;
+  text-decoration:none;
+
+}
+
+#usuario_formularioInicioSesion_reestablecercontraseña:hover {
+
+  color: #FFBD25;
+  text-decoration:underline;
+}
+
+
+#usuario_formularioInicioSesion_iniciarSesion {
+
+  margin-top: 30px;
+  width:300px;
+  height: 56px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#usuario_formularioInicioSesion_iniciarSesion:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+  cursor: pointer;
+
+}
+
+#usuario_formularionInicioSesion_parraforegistro {
+
+  padding-top: 15px;
+  font-size: 13px;
+  font-family: HelveticaNeueLTStd-Lt;
+  color: white;
+
+}
+
+
+#usuario_formularionInicioSesion_parraforegistro a {
+
+  text-decoration:none;
+  color:white;
+  font-family:HelveticaNeueLTStd-Bd; 
+
+}
+
+#usuario_formularionInicioSesion_parraforegistro a:hover {
+
+  color: #FFBD25;
+
+}
+
+
+

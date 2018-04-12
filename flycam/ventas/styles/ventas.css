@@ -1,0 +1,207 @@
+tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; vertical-align: middle;}
+
+#ventas_cuerpo{
+
+	
+	padding-left: 250px;
+}
+
+#ventas_cuerpo h1{
+
+	
+}
+
+#ventas_cuerpo p {
+
+	font-size: 17px
+	color:#404041;
+;
+
+}
+
+#ventas_cuerpo_formularioVentas{
+
+	margin-bottom: 20px;
+	width: 773px;
+
+}
+
+#ventas_cuerpo_formularioVentas_chaturbate{ background-color: #F47321;}
+#ventas_cuerpo_formularioVentas_jasmin{ background-color: #8C0000;}
+#ventas_cuerpo_formularioVentas_myfreecams{ background-color: #185A1A;}
+
+.ventas_cuerpo_formularioVentas_cajon{
+
+	margin-top:5px;
+width:773px; 
+	height: 40px;
+	padding-top: 10px;
+}
+
+.ventas_cuerpo_formularioVentas_cajon .logo {
+
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.ventas_cuerpo_formularioVentas_cajon label {
+
+	font-family: arial;
+	color: white;
+	font-size: 17px;
+	margin-right: 5px;
+
+}
+
+.ventas_cuerpo_formularioVentas_cajon label b {
+
+ font-size: 20px;
+
+}
+
+.ventas_cuerpo_formularioVentas_cajon input{
+
+	width: 150px;
+	background-color: white;
+	border-style:none;
+	font-size: 20px;
+	font-family: arial;
+}
+
+#ventas_cuerpo_formularioVentas .editIcon{
+vertical-align: middle;
+
+}
+
+#ventas_cuerpo_formularioVentas .editIcon:hover{
+opacity: 0.7;
+cursor: pointer;
+
+}
+
+.ventas_cuerpo_formularioVentas_cajon span{
+margin-left: 10px;
+font-family: HelveticaNeueLTStd-Lt;
+color: white;
+}
+
+.ventas_cuerpo_formularioVentas_cajon span:hover{
+opacity: 0.7;
+cursor: pointer;
+text-decoration: underline;
+
+}
+
+#ventas_cuerpo_formularioVentas_ingresarDatos {
+
+  width:220px;
+  height: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  margin-left:70%;
+  margin-top: 20px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#ventas_cuerpo_formularioVentas_ingresarDatos:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#ventas_cuerpo_advertencia{
+
+display: inline-block;
+height:30px;
+background-color:#FFF764;
+padding-top: 10px;
+padding-right: 10px;
+margin-top: 15px;
+
+}
+
+#ventas_cuerpo_advertencia img {vertical-align: middle; margin-left: 10px; margin-right: 10px;}
+
+#ventas_cuerpo_advertencia p {display: inline;}
+
+#ventas_cuerpo_advertencia b {color:red; font-weight: bolder;}
+
+#ventas_cuerpo_diligenciarExcusa{
+
+	width:770px;
+	height:270px;
+	padding-top:20px;
+	padding-left:20px; 
+
+	background: #3a0419; /* Old browsers */
+background: -moz-linear-gradient(top,  #3a0419 1%, #800b44 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3a0419 1%,#800b44 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3a0419 1%,#800b44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a0419', endColorstr='#800b44',GradientType=0 ); /* IE6-9 */
+}
+
+#ventas_cuerpo_diligenciarExcusa p{
+
+color: white;
+}
+
+#ventas_cuerpo_diligenciarExcusa_titulo{
+
+	color:white;
+}
+
+#ventas_cuerpo_diligenciarExcusa textarea { resize: none;  }
+
+
+#ventas_cuerpo_diligenciarExcusa img {
+
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+#ventas_cuerpo_diligenciarExcusa_enviarExcusa {
+
+  width:220px;
+  height: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #441D03;
+  border:none;
+  border-radius: 5px;
+  margin-left:170px;
+
+  background: #f9cc00; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9cc00 0%, #f7b611 54%, #fd9a09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9cc00 0%,#f7b611 54%,#fd9a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9cc00', endColorstr='#fd9a09',GradientType=0 ); /* IE6-9 */
+
+}
+
+#ventas_cuerpo_diligenciarExcusa_enviarExcusa:hover {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f71d+0,f9bb0e+99 */
+  background: #f7f71d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f71d 0%, #f9bb0e 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7f71d 0%,#f9bb0e 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7f71d 0%,#f9bb0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f71d', endColorstr='#f9bb0e',GradientType=0 ); /* IE6-9 */
+
+}
